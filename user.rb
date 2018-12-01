@@ -2,7 +2,7 @@
 require_relative 'cart'
 
 
-class Usuario
+class User
 
 
 	attr_accessor :id, :username, :cart

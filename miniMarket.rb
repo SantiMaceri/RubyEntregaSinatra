@@ -3,7 +3,7 @@ Bundler.require
 
 
 require_relative 'item'
-require_relative 'usuario'
+require_relative 'user'
 require_relative 'cart'
  
 #Items por defecto	
@@ -18,8 +18,8 @@ require_relative 'cart'
 	carrito_algo = Cart.new(c,d)
 
 #Usuarios por defecto
-	u1 = Usuario.new(1, "Pepe")		#User sin carrito
-	u2 = Usuario.new(2, "ElPro", carrito_algo)	#User con carrito
+	u1 = User.new(1, "Pepe")		#User sin carrito
+	u2 = User.new(2, "ElPro", carrito_algo)	#User con carrito
 	users = [u1,u2]
 
 before do
